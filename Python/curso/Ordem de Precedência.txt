@@ -1,0 +1,5 @@
+Ordem de Precedência
+Começa com os () - dentro dos parêntses
+Depois a ** - Potência
+Depois a *, /, //, % - fazendo o que vir primeiro
+Depois a +, - - fazer mais e menos

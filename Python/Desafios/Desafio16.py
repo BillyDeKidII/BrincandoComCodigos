@@ -1,0 +1,11 @@
+import math
+num = float(input('Digite um número qualquer ? '))
+inteiro = math.trunc(num)
+teste = math.modf(num)
+mais = math.ceil(num)
+menos = math.floor(num)
+inteiroNativo = int(num)
+print('Seu número completo é {} e sua parte inteira é {}'.format(num, inteiro))
+print('Separando a parte inteira da parte decimal fica {}'.format(teste))
+print('Aredondando pra cima fica {} e pra baixo fica {}'.format(mais, menos))
+print('Usando um transformador de float pra inteiro temos o numero {}'.format(inteiroNativo))

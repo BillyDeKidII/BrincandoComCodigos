@@ -1,0 +1,7 @@
+Planilha com Empresas e Valores 2019
+
+Nome da Empresa;
+Contato;
+Email;
+Quantidade de Homologações Feitas na Unifil;
+Motivo( Se veio motivo por que veio / Se não veio motivo por que não veio);

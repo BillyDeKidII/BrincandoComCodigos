@@ -1,0 +1,8 @@
+apache
+msql
+php (php do jeito certo) 
+framework code igniter
+
+FUTURO
+laravel
+cakePHP

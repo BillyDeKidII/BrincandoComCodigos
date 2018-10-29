@@ -1,0 +1,2 @@
+﻿::@gp::contapokemonprimeiro@gmail.com
+

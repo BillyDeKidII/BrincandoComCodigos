@@ -1,0 +1,2 @@
+https://docs.python.org/3.0/library/tkinter.html
+https://www.devmedia.com.br/tkinter-interfaces-graficas-em-python/33956

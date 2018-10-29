@@ -1,0 +1,6 @@
+meia hora 1800
+uma hora 3600
+uma hora e meia 5400
+duas horas 7200
+duas horas e meia 9000
+quatro horas 14400

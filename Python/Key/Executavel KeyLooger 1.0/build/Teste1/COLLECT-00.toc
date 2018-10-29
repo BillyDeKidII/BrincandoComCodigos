@@ -1,0 +1,68 @@
+([('Teste1.exe',
+   'C:\\Users\\Thiago Romão\\Documents\\Projetos-Romao\\Brincando com '
+   'Codigos\\Python\\Key\\build\\Teste1\\Teste1.exe',
+   'EXECUTABLE'),
+  ('Teste1.exe.manifest',
+   'C:\\Users\\Thiago Romão\\Documents\\Projetos-Romao\\Brincando com '
+   'Codigos\\Python\\Key\\build\\Teste1\\Teste1.exe.manifest',
+   'BINARY'),
+  ('python37.dll',
+   'C:\\Users\\Thiago '
+   'Romão\\AppData\\Local\\Programs\\Python\\Python37-32\\python37.dll',
+   'BINARY'),
+  ('VCRUNTIME140.dll',
+   'C:\\Users\\Thiago '
+   'Romão\\AppData\\Local\\Programs\\Python\\Python37-32\\VCRUNTIME140.dll',
+   'BINARY'),
+  ('_ssl',
+   'C:\\Users\\Thiago '
+   'Romão\\AppData\\Local\\Programs\\Python\\Python37-32\\DLLs\\_ssl.pyd',
+   'EXTENSION'),
+  ('unicodedata',
+   'C:\\Users\\Thiago '
+   'Romão\\AppData\\Local\\Programs\\Python\\Python37-32\\DLLs\\unicodedata.pyd',
+   'EXTENSION'),
+  ('pyexpat',
+   'C:\\Users\\Thiago '
+   'Romão\\AppData\\Local\\Programs\\Python\\Python37-32\\DLLs\\pyexpat.pyd',
+   'EXTENSION'),
+  ('_hashlib',
+   'C:\\Users\\Thiago '
+   'Romão\\AppData\\Local\\Programs\\Python\\Python37-32\\DLLs\\_hashlib.pyd',
+   'EXTENSION'),
+  ('select',
+   'C:\\Users\\Thiago '
+   'Romão\\AppData\\Local\\Programs\\Python\\Python37-32\\DLLs\\select.pyd',
+   'EXTENSION'),
+  ('_bz2',
+   'C:\\Users\\Thiago '
+   'Romão\\AppData\\Local\\Programs\\Python\\Python37-32\\DLLs\\_bz2.pyd',
+   'EXTENSION'),
+  ('_lzma',
+   'C:\\Users\\Thiago '
+   'Romão\\AppData\\Local\\Programs\\Python\\Python37-32\\DLLs\\_lzma.pyd',
+   'EXTENSION'),
+  ('_socket',
+   'C:\\Users\\Thiago '
+   'Romão\\AppData\\Local\\Programs\\Python\\Python37-32\\DLLs\\_socket.pyd',
+   'EXTENSION'),
+  ('_queue',
+   'C:\\Users\\Thiago '
+   'Romão\\AppData\\Local\\Programs\\Python\\Python37-32\\DLLs\\_queue.pyd',
+   'EXTENSION'),
+  ('_ctypes',
+   'C:\\Users\\Thiago '
+   'Romão\\AppData\\Local\\Programs\\Python\\Python37-32\\DLLs\\_ctypes.pyd',
+   'EXTENSION'),
+  ('libcrypto-1_1.dll',
+   'C:\\Users\\Thiago '
+   'Romão\\AppData\\Local\\Programs\\Python\\Python37-32\\DLLs\\libcrypto-1_1.dll',
+   'BINARY'),
+  ('libssl-1_1.dll',
+   'C:\\Users\\Thiago '
+   'Romão\\AppData\\Local\\Programs\\Python\\Python37-32\\DLLs\\libssl-1_1.dll',
+   'BINARY'),
+  ('base_library.zip',
+   'C:\\Users\\Thiago Romão\\Documents\\Projetos-Romao\\Brincando com '
+   'Codigos\\Python\\Key\\build\\Teste1\\base_library.zip',
+   'DATA')],)
