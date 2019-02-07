@@ -13,5 +13,6 @@ function apresentacao()
 
 console.log(obj.nome);
 console.log(obj.sobrenome);
+console.log(obj);
 console.log(obj.idade);
 obj.apresentar();
