@@ -1,0 +1,84 @@
+[21:40:08] [Server thread/INFO]: Starting minecraft server version 1.12.2
+[21:40:08] [Server thread/INFO]: Loading properties
+[21:40:08] [Server console handler/ERROR]: Exception handling console input
+java.io.IOException: Identificador inválido
+	at java.io.FileInputStream.readBytes(Native Method) ~[?:1.8.0_161]
+	at java.io.FileInputStream.read(Unknown Source) ~[?:1.8.0_161]
+	at java.io.BufferedInputStream.read1(Unknown Source) ~[?:1.8.0_161]
+	at java.io.BufferedInputStream.read(Unknown Source) ~[?:1.8.0_161]
+	at sun.nio.cs.StreamDecoder.readBytes(Unknown Source) ~[?:1.8.0_161]
+	at sun.nio.cs.StreamDecoder.implRead(Unknown Source) ~[?:1.8.0_161]
+	at sun.nio.cs.StreamDecoder.read(Unknown Source) ~[?:1.8.0_161]
+	at java.io.InputStreamReader.read(Unknown Source) ~[?:1.8.0_161]
+	at java.io.BufferedReader.fill(Unknown Source) ~[?:1.8.0_161]
+	at java.io.BufferedReader.readLine(Unknown Source) ~[?:1.8.0_161]
+	at java.io.BufferedReader.readLine(Unknown Source) ~[?:1.8.0_161]
+	at nz$2.run(SourceFile:100) [server.jar:?]
+[21:40:08] [Server thread/INFO]: Default game type: SURVIVAL
+[21:40:08] [Server thread/INFO]: Generating keypair
+[21:40:08] [Server thread/INFO]: Starting Minecraft server on *:25565
+[21:40:08] [Server thread/INFO]: Using default channel type
+[21:40:09] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[21:40:09] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[21:40:09] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[21:40:09] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[21:40:10] [Server thread/INFO]: Preparing level "world"
+[21:40:11] [Server thread/INFO]: Loaded 488 advancements
+[21:40:11] [Server thread/INFO]: Preparing start region for level 0
+[21:40:12] [Server thread/INFO]: Preparing spawn area: 3%
+[21:40:13] [Server thread/INFO]: Preparing spawn area: 44%
+[21:40:14] [Server thread/INFO]: Preparing spawn area: 93%
+[21:40:14] [Server thread/INFO]: Done (4,300s)! For help, type "help" or "?"
+[21:42:03] [Server thread/INFO]: DogMau[/192.168.17.238:56854] logged in with entity id 303 at (342.31486604298885, 78.0, 341.19420647429007)
+[21:42:03] [Server thread/INFO]: DogMau joined the game
+[21:42:19] [Server thread/INFO]: Billy[/192.168.18.163:53909] logged in with entity id 432 at (350.56681637426163, 78.5625, 338.27540008564307)
+[21:42:19] [Server thread/INFO]: Billy joined the game
+[21:42:54] [Server thread/INFO]: <Billy> dorme hausha
+[21:43:19] [Server thread/INFO]: <Billy> zzzzz
+[21:43:19] [Server thread/INFO]: <Billy> z
+[21:43:20] [Server thread/INFO]: <Billy> z
+[21:43:20] [Server thread/INFO]: <Billy> z
+[21:43:20] [Server thread/INFO]: <Billy> z
+[21:43:21] [Server thread/INFO]: <Billy> z
+[21:43:34] [Server thread/INFO]: <Billy> vamo achar vaca
+[21:43:45] [Server thread/INFO]: <Billy> vo pegar ym barco e ja era
+[21:43:56] [Server thread/INFO]: <Billy> aperta t
+[21:43:59] [Server thread/INFO]: <Billy> ahushuas
+[21:44:03] [Server thread/INFO]: <DogMau> sdnjasndaslda
+[21:44:10] [Server thread/INFO]: <Billy> to no mouse pad e to top
+[21:46:07] [Server thread/WARN]: DogMau moved too quickly! 7.405001826617649,3.024424088213692,6.175052800548144
+[21:46:22] [Server thread/WARN]: DogMau moved too quickly! 0.15102566578303822,-6.5,7.741164504710184
+[21:46:43] [Server thread/WARN]: DogMau moved too quickly! 0.017499983950983733,-7.421599998474122,6.8281487026236505
+[21:46:50] [Server thread/INFO]: DogMau lost connection: Timed out
+[21:46:50] [Server thread/INFO]: DogMau left the game
+[21:47:00] [Server thread/INFO]: <Billy> ahsuuahsuaushaush
+[21:47:08] [Server thread/INFO]: DogMau[/192.168.17.238:56860] logged in with entity id 3744 at (366.51603476888056, 24.85489329934836, 428.03902140155236)
+[21:47:08] [Server thread/INFO]: DogMau joined the game
+[21:47:53] [Server thread/INFO]: DogMau lost connection: Timed out
+[21:47:53] [Server thread/INFO]: DogMau left the game
+[21:48:31] [Server thread/INFO]: DogMau[/192.168.17.238:56863] logged in with entity id 5955 at (386.6296220048154, 11.0, 441.6155088070005)
+[21:48:31] [Server thread/INFO]: DogMau joined the game
+[21:48:44] [Server thread/INFO]: DogMau was killed by Witch using magic
+[21:48:49] [Server thread/INFO]: <Billy> haushauhsuhuahushuahsuuahsuhash
+[21:48:53] [Server thread/INFO]: <Billy> ta tirando mano
+[21:49:02] [Server thread/INFO]: DogMau lost connection: Timed out
+[21:49:02] [Server thread/INFO]: DogMau left the game
+[21:50:00] [Server thread/INFO]: DogMau[/192.168.17.238:56872] logged in with entity id 8142 at (334.46612192087014, 77.26636799395752, 344.4929403732031)
+[21:50:00] [Server thread/INFO]: DogMau joined the game
+[21:50:23] [Server thread/INFO]: DogMau lost connection: Timed out
+[21:50:23] [Server thread/INFO]: DogMau left the game
+[21:53:32] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2038ms behind, skipping 40 tick(s)
+[21:53:58] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2213ms behind, skipping 44 tick(s)
+[21:55:17] [Server thread/INFO]: Billy was blown up by Creeper
+[21:55:26] [Server thread/INFO]: Billy lost connection: Disconnected
+[21:55:26] [Server thread/INFO]: Billy left the game
+[21:55:35] [Server thread/INFO]: Stopping server
+[21:55:35] [Server thread/INFO]: Saving players
+[21:55:35] [Server thread/INFO]: Saving worlds
+[21:55:35] [Server thread/INFO]: Saving chunks for level 'world'/overworld
+[21:55:35] [Server thread/INFO]: Saving chunks for level 'world'/the_nether
+[21:55:35] [Server thread/INFO]: Saving chunks for level 'world'/the_end
+[21:55:35] [Server Shutdown Thread/INFO]: Stopping server
+[21:55:35] [Server Shutdown Thread/INFO]: Saving players
+[21:55:35] [Server Shutdown Thread/INFO]: Saving worlds
+[21:55:35] [Server Shutdown Thread/INFO]: Saving chunks for level 'world'/overworld
