@@ -1,0 +1,28 @@
+{
+    "configurations": [
+        {
+            "type": "extensionHost",
+            "request": "launch",
+            "name": "Executar Extensão",
+            "runtimeExecutable": "${execPath}",
+            "args": [
+                "--extensionDevelopmentPath=${workspaceFolder}"
+            ],
+            "outFiles": [
+                "${workspaceFolder}/out/**/*.js"
+            ],
+            "preLaunchTask": "npm"
+        },
+
+        {
+            "type": "java",
+            "name": "Spring Boot-CobrancaApplication<cobranca>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "com.algaworks.cobranca.CobrancaApplication",
+            "projectName": "cobranca",
+            "args": ""
+        }
+    ]
+}
