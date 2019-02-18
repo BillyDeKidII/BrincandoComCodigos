@@ -1,4 +1,10 @@
-navbar-brand
+.navbar-brand
 {
     padding-top: 12px;
+}
+
+.card-header
+{
+    margin-left: 90px;
+    margin-right: 90px;
 }

@@ -18,15 +18,64 @@
     </div>
 </nav>
 
-    <form class="form-horizontal">
-        <div class="panel panel-default">
-            <div class="panel-heading">
-                <h1 class="panel-title">
-                    Novo Título
-                </h1>
-            </div>
+    <div class="card" style="margin-left: 20px; margin-right: 20px;" method="POST" action="/titulos">
+        <div class="card-header">
+            Novo Título
         </div>
-    </form>
+        <form>
+            <div class="card-body">
+                <!--Descrição-->
+                 <div class="form-group">
+                    <label for="descricao" class="col-sm-2 control-label">
+                        Descrição
+                    </label>
+                    <div class="col-sm-4">
+                        <input type="text" class="form-control" id="descricao" name="descricao"/>
+                    </div>
+                </div>
+                <!--Data de vencimento-->
+                <div class="form-group">
+                    <label for="dataVencimento" class="col-sm-2 control-label">
+                        Data de vencimento
+                    </label>
+                    <div class="col-sm-2">
+                        <input type="text" class="form-control" id="dataVencimento" name="dataVencimento"/>
+                    </div>
+                </div>
+                <!--Valor-->
+                <div class="form-group">
+                    <label for="valor" class="col-sm-2 control-label">
+                        Valor
+                    </label>
+                    <div class="col-sm-2">
+                        <input type="text" class="form-control" id="valor" name="valor"/>
+                    </div>
+                </div>
+                <!--Status-->
+                <div class="form-group">
+                    <label for="status" class="col-sm-2 control-label">
+                        Status
+                    </label>
+                    <div class="col-sm-2">
+                        <select class="form-control" name="status">
+                            <option>Pendente</option>
+                            <option>Recebido</option>
+                        </select>
+                    </div>
+                </div>
+                <!--Enviar/Salvar-->
+                <div class="form-group">
+                    <div class="col-sm-offset-2 col-sm-10">
+                        <button type="submit" class="btn btn-primary">
+                            Salvar
+                        </button>
+                    </div>
+                </div>
+
+            </div>
+        </form>
+    </div>
+
 
 <script src="/js/bootstrap.min.js"></script>
 </body>
