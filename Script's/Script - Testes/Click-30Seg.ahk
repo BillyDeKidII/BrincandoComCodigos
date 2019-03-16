@@ -1,7 +1,7 @@
 ﻿^j::
-Loop, 1
+Loop, 60
 {
-SendEvent {Click 500, 300}
+SendEvent {Click 300, 300}
 }
 Return
 
