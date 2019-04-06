@@ -18,6 +18,6 @@ def main():
                 pygame.quit();
                 sys.exit()
 
-
+#THIAGO
 if __name__ == '__main__':
     main()
