@@ -6,12 +6,16 @@ import sys
 class SlidePuzzle:
     def __init__(self,gs,ts,ms):
         self.gs,self.ts,self.ms = gs,ts,ms
-
+        self.tiles_len = gs[0]*gs[1]-1
+        self.tiles = [(x,y) for y in range(gs[1]) for x in range(gs[0])]
+        self.tilespos = {(x,y): (x*(ts+ms) +ms, y*(ts+ms) +ms) for y in range(gs[1]) for x in range(gs[0])}
     def update (self,dt):
         pass
 
     def draw(self,screen):
-        pass
+        for i in range(self.tiles_len):
+            x,y = self.tilespos[self.tiles[i]]
+            pygame.draw.rect(screen,(0,255,0), (x,y,self.ts,self.ts))
 
 def main():
     pygame.init()
