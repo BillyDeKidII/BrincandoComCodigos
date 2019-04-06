@@ -1,5 +1,6 @@
 from tkinter import *
 
+
 class Tela(Frame):
     def say_hi(self):
         print("Olá Mundo, Eu Funciono!")
@@ -28,6 +29,7 @@ class Tela(Frame):
         Frame.__init__(self, master)
         self.pack()
         self.criandoTela()
+
 
 root = Tk()
 app = Tela(master=root)
