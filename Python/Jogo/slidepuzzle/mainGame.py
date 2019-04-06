@@ -10,7 +10,13 @@ class SlidePuzzle:
         self.tiles_len = gs[0] * gs[1] - 1
         self.tiles = [(x, y) for y in range(gs[1]) for x in range(gs[0])]
         self.tilespos = {(x, y): (x * (ts + ms) + ms, y * (ts + ms) + ms) for y in range(gs[1]) for x in range(gs[0])}
-        #self.font = pygame.font.Font(None, 120)
+        self.font = pygame.font.Font(None, 120)
+        self.images = []
+        for i in range(self.tiles_len):
+            image = pygame.Surface((ts,ts)); image.fill((0,255,0))
+            text = self.font.Font(None,120)
+            image.blit(text,(0,0))
+            self.image+=[image]
 
     def update(self, dt):
         pass
@@ -18,9 +24,7 @@ class SlidePuzzle:
     def draw(self, screen):
         for i in range(self.tiles_len):
             x, y = self.tilespos[self.tiles[i]]
-            pygame.draw.rect(screen, (0, 255, 0), (x, y, self.ts, self.ts))
-            #text = self.font.render(str(i + 1), 2, (0, 0, 0))
-            #screen.blit(text, (x, y))
+            screen.blit(self.images[i], (x,y))
 
 
 def main():
