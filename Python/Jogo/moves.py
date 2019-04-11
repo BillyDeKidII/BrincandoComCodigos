@@ -45,7 +45,7 @@ screen[playerpos] = 8
 print(screen)
 screen[playerpos] = background[playerpos]
 playerpos = playerpos - 1
-screen[playerpos] = 8
+screen[playerp screen.blit(background[i], (i * 10, 0))os] = 8
 print(screen)
 
 # Indo da Lista para a Tela
@@ -53,7 +53,7 @@ print('Indo da Lista para a Tela')
 background = [terrain1, terrain1, terrain2, terrain2, terrain2, terrain1]
 screen = create_graphics_screen()
 for i in range(6):
-    screen.blit(background[i], (i * 10, 0))
+
 playerpos = 3
 screen.blit(playerimage, (playerpos * 10, 0))
 screen.blit(background[playerpos], (playerpos * 10, 0))
