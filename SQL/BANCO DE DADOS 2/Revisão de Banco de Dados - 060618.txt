@@ -1,0 +1,73 @@
+Create table produto (
+	Cod_produto	varchar2(5)	not null,
+	Des_produto	varchar2(30)	not null,
+	Qtd_produto   number(6,2)    not null,
+	Val_produto   number(8,2) not null,
+Constraint pk_produto primary key (cod_produto));
+
+Create table nota_fiscal (
+	Num_nf	number(5)	not null,
+	Dat_emissao	date		not null,
+	Cod_cliente	varchar2(11)	not null,
+Constraint pk_nf primary key (num_nf));
+
+Create table item_nota (
+	Num_nf		number(5)	not null,
+	Num_item		number(2)	not null,
+	Cod_produto		varchar2(5)	not null,
+Qtd_produto            number(6,2)    not null,
+Val_produto		number(8,2) not null,
+Constraint pk_itnf primary key (num_nf, num_item));
+
+Create table cliente(codigo varchar2(11) not null, nome varchar2(80),
+constraint pk_cli primary key (codigo));
+
+Alter Table nota_fiscal Add Constraint fk_cliente Foreign Key (cod_cliente) References cliente(codigo);
+
+Alter Table item_nota Add Constraint fk_produto Foreign Key (cod_produto) References produto(cod_produto);
+
+Alter Table item_nota Add Constraint fk_nf Foreign Key (num_nf) References nota_fiscal(num_nf);
+
+
+Escreva SQL para:
+
+
+
+-- mostrar a descricao e valor do produto com maior valor unitário
+
+-- MOSTRAR NOTA FISCAL E TAMBEM NOTAS SEM ITENS
+
+-- Mostrar o codigo e descrição do PRODUTO QUE NAO FOI VENDIDO
+
+--Mostrar a quantidade DE COMPRAS POR CLIENTE
+
+-- Mostrar o numero da nota fiscal, nome do cliente e o total da nota (soma do valores dos produtos vendidos)
+
+select * from cliente;
+
+insert into cliente values(1, 'Roberto', 'Masc', '36234598', 'Rua Brasil')
+
+insert into produto values(1, 'Mouse', 3, 9.50);
+insert into produto values(2, 'Teclado', 2, 12.75);
+insert into produto values(3, 'Monitor', 1, 1389.98);
+insert into produto values(4, 'Mousepad', 5, 22.68);
+
+insert into nota_fiscal values(1, '06/06/18', 1);
+insert into nota_fiscal values(2, '25/03/12', 2);
+insert into nota_fiscal values(3, '08/12/17', 3);
+
+insert into item_nota values(1, 3, 1, 3, 9.50);
+insert into item_nota values(2, 2, 2, 2, 12.75);
+insert into item_nota values(3, 1, 3, 1, 1389.98);
+
+select * from produto;
+select * from nota_fiscal;
+select * from item_nota;
+
+-- Questão 01:
+
+select P.Des_produto, P.Val_produto from produto P
+where P.Val_produto = (select max(PR.Val_produto) from produto PR);
+
+-- Questão 02:
+
