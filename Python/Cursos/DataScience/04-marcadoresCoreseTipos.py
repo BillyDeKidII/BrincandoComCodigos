@@ -12,7 +12,10 @@ plt.title(titulo)
 plt.xlabel(eixox)
 plt.ylabel(eixoy)
 
-plt.plot(x, y, color = "purple", linestyle = "-")
-plt.scatter(x, y, label = "Pontos", color = "black", marker = ".", s = z)
+# para salvar a imagem deve ser removido .show e .draw , eles fazem com que o savefig saia blank
+plt.plot(x, y, color="purple", linestyle="-")
+plt.scatter(x, y, label="Pontos", color="black", marker=".", s=z)
 plt.legend()
-plt.show()
+#plt.show()
+#plt.draw()
+plt.savefig("figura1.png", dpi=300)
