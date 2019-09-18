@@ -1,0 +1,22 @@
+﻿^o::
+Loop, 9
+{
+	Send,08:00
+	Sleep,500
+	Send,{Right}
+	Sleep,500
+	Send,12:00
+	Sleep,500
+	Send,{Down}
+	Send,{Left}
+	Sleep,500
+	Send,13:30
+	Sleep,500
+	Send,{Right}
+	Sleep,500
+	Send,17:30	
+	Sleep,500
+	Send,{Down}
+	Send,{Left}
+}
+Return
