@@ -1,5 +1,5 @@
 ﻿^j::
-Loop, 902400
+Loop, 900
 {
 SendEvent {Click 750, 400}
 }

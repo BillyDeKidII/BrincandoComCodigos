@@ -1,5 +1,5 @@
 ﻿^o::
-Loop, 9
+Loop, 15
 {
 	Send,08:00
 	Sleep,500

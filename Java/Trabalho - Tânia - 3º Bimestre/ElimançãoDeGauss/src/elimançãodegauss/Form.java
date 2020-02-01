@@ -19,6 +19,7 @@ public class Form extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
+        jTextField1 = new javax.swing.JTextField();
         a11 = new javax.swing.JTextField();
         a12 = new javax.swing.JTextField();
         a13 = new javax.swing.JTextField();
@@ -48,6 +49,8 @@ public class Form extends javax.swing.JFrame {
         b6 = new javax.swing.JTextField();
         b7 = new javax.swing.JTextField();
         jLabel4 = new javax.swing.JLabel();
+
+        jTextField1.setText("jTextField1");
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -317,5 +320,6 @@ public class Form extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
+    private javax.swing.JTextField jTextField1;
     // End of variables declaration//GEN-END:variables
 }
